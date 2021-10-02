@@ -1,0 +1,124 @@
+/*globales*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*  {
+    box-sizing: inherit;
+}
+*:before {
+    box-sizing: inherit;
+}
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    margin: 4rem 7rem;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 98%;
+}
+
+h1 {
+    margin: 0 0 2.5rem 0 ;
+    font-weight: 900;
+    color: negro;
+}
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+
+.start {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.team {
+    margin-left: 5%;
+    display: grid;
+    gap: 0 2rem;
+    grid-template-columns: repeat(2, 48%);
+}
+.who {
+    margin-bottom: 0;
+}
+.we {
+    margin-top: 0;
+    padding-right: 30%;
+}
+.team p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 400;
+    max-height: 70%;
+  }
+
+.bill h3{
+    margin-top: -70px;
+}
+.sha h3{
+    margin-top: -70px;
+}
+.img {
+    display: grid;
+    grid-template-columns: 85% 10%;
+}
+.saba{
+    padding-top: 8rem;
+}
+@media (min-width: 768px) {
+    [class*="start"] {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    [class*="team"] {
+        display: grid;
+        gap: 0 2rem;
+        grid-template-columns: repeat(3, 30%);
+    }
+    [class*="gri"] {
+        padding-top: 8rem;
+    }
+    [class*="margin-768"] {
+        margin-top: -70px;
+    }
+}
+@media (max-width: 768px) {
+    [class*="sky"] {
+        padding-top: 8rem;
+    }
+    [class*="stan"] {
+        padding-top: 8rem;
+    }
+    
+}
+.margin-gri {
+    margin-top: -70px;
+}
