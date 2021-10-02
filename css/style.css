@@ -122,3 +122,9 @@ h3 {
 .margin-gri {
     margin-top: -70px;
 }
+
+footer {
+    text-align: center;
+    background-color: rgb(170, 178, 184);
+    padding: 1rem;
+}
